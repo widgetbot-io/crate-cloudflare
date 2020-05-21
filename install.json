@@ -176,7 +176,7 @@
               "title": "Advanced options",
               "properties": {
                 "delay": {
-                  "default": false,
+                  "default": true,
                   "type": "boolean",
                   "title": "Delay until interaction",
                   "description":
