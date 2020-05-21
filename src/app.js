@@ -57,8 +57,8 @@
         for (var i = 0, len = options.buttons.length; i < len; i++) {
           var button = options.buttons[i]
           var config = {
-            server: button.server || '339515332702240769', // Default cloudflare discord server,
-            channel: button.channel || '407710314424172544', // Default cloudflare discord channel
+            server: button.server || '299881420891881473', 
+            channel: button.channel || '355719584830980096',
             color: button.colors.toggle,
             indicator: button.customization.indicator,
             timeout: button.customization.toasts.visibilityTime,
@@ -76,8 +76,6 @@
                 '% '
             ]
           }
-
-          if (button.advanced.beta) config.shard = 'https://beta.widgetbot.io'
 
           if (i === 0) {
             if (window.crate) {

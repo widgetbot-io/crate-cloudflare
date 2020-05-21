@@ -1,7 +1,7 @@
 {
   "name": "@cloudflare-apps/widgetbot-crate",
   "version": "2.0.3",
-  "description": "Popup Discord chat widgets for your website.",
+  "description": "Pixel perfect discord embed for your website.",
   "main": "app.js",
   "private": true,
   "repository": {
@@ -12,6 +12,5 @@
   "bugs": {
     "url": "https://github.com/widgetbot-io/crate-cloudflare/issues"
   },
-  "homepage": "https://github.com/widgetbot-io/crate-cloudflare#readme",
-  "dependencies": {}
+  "homepage": "https://github.com/widgetbot-io/crate-cloudflare#readme"
 }

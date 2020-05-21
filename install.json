@@ -19,15 +19,16 @@
     "properties": {
       "tier": {
         "order": 1,
-        "title": "WidgetBot patreon tier",
+        "title": "WidgetBot Patreon tier",
         "description":
-          "Becoming a <a href=\"https://www.patreon.com/bePatron?u=5594164\" target=\"_blank\">patreon</a>, enables access to more customization",
+          "Becoming a <a href=\"https://patreon.com/widgetbot\" target=\"_blank\">patreon</a>, enables access to more customization",
         "type": "string",
-        "enum": ["free", "patreon", "ultimate"],
+        "enum": ["free", "red", "gold", "emerald"],
         "enumNames": {
           "free": "Free",
-          "patreon": "Patreon ($1)",
-          "ultimate": "Ultimate patreon ($5)"
+          "red": "WidgetBot Red ($2.50)",
+          "gold": "WidgetBot Gold ($7.50)",
+          "emerald": "WidgetBot Emerald ($15)"
         },
         "default": "free"
       },
@@ -41,13 +42,13 @@
             "server": {
               "order": 1,
               "title": "Discord server ID",
-              "placeholder": "339515332702240769",
+              "placeholder": "299881420891881473",
               "type": "string"
             },
             "channel": {
               "order": 2,
               "title": "Discord channel ID",
-              "placeholder": "339515332702240769",
+              "placeholder": "355719584830980096",
               "type": "string"
             },
             "position": {
@@ -180,13 +181,6 @@
                   "title": "Delay until interaction",
                   "description":
                     "Only load the WidgetBot embed when the user toggles it open"
-                },
-                "beta": {
-                  "default": false,
-                  "type": "boolean",
-                  "title": "WidgetBot BETA",
-                  "description":
-                    "<a href=\"https://beta.widgetbot.io\" class=\"more\" target=\"_blank\">Learn more</a>"
                 }
               }
             }
