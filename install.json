@@ -17,21 +17,6 @@
   },
   "options": {
     "properties": {
-      "tier": {
-        "order": 1,
-        "title": "WidgetBot Patreon tier",
-        "description":
-          "Becoming a <a href=\"https://patreon.com/widgetbot\" target=\"_blank\">patreon</a>, enables access to more customization",
-        "type": "string",
-        "enum": ["free", "red", "gold", "emerald"],
-        "enumNames": {
-          "free": "Free",
-          "red": "WidgetBot Red ($2.50)",
-          "gold": "WidgetBot Gold ($7.50)",
-          "emerald": "WidgetBot Emerald ($15)"
-        },
-        "default": "free"
-      },
       "buttons": {
         "order": 2,
         "title": "Crate buttons",
@@ -73,30 +58,6 @@
                   "default": "#7289DA",
                   "format": "color",
                   "title": "Toggle button",
-                  "type": "string"
-                },
-                "button": {
-                  "showIf": {
-                    "tier": {
-                      "op": "!=",
-                      "value": "free"
-                    }
-                  },
-                  "default": "#607CDA",
-                  "format": "color",
-                  "title": "Widget button",
-                  "type": "string"
-                },
-                "background": {
-                  "showIf": {
-                    "tier": {
-                      "op": "!=",
-                      "value": "free"
-                    }
-                  },
-                  "default": "#36393E",
-                  "format": "color",
-                  "title": "Widget background",
                   "type": "string"
                 }
               }
